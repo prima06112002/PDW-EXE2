@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="halaman_kedua.css">
+    <title>Page 2</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h3>Form ONE MORE NIGHT-MARRON 5</h3>
+        </div>
+        <form action="">
+            <label for="nama">Nama</label><br>
+            <input type="text" placeholder="Nama" id="nama"><br><br>
+
+            <label for="tanggal">Tanggal</label><br>
+            <input type="date" id="tanggal"><br><br>
+
+            <label for="day">Day</label><br>
+            <select id="Day">
+                <option value="Day 1">Day 1</option>
+                <option value="Day 2">Day 2</option>
+                <option value="Day 1 dan 2">Day 1 dan 2</option>
+            </select><br><br>
+
+            <p>Tempat : </p>
+
+            <input type="radio" name="Plan" id="TRIBUN" value="TRIBUN">
+            <label for="TRIBUN">TRIBUN</label> <br>
+            <input type="radio" name="Plan" id="FESTIVAL" value="FESTIVAL">
+            <label for="FESTIVAL">FESTIVAL</label><br>
+            <input type="radio" name="Plan" id="REGULAR" value="REGULAR"> 
+            <label for="REGULAR">REGULAR</label><br>
+
+            <label for="Jumlah">Jumlah Tiket</label><br>
+            <textarea placeholder="Jumlah Tiket yang dipesan" name="Jumlah" id="Jumlah" cols="30" rows="5"></textarea><br><br>
+            <label for="Contact">Contact</label><br>
+            <textarea placeholder="Tulis kontak yang bisa dihubungi" name="Contact" id="Contact" cols="30" rows="5"></textarea><br><br>
+
+            <button type="submit" onclick="kirimData()">Kirim</button>
+        </form>
+    </div>
+    <script src="halaman_kedua.js"></script>
+</body>
+</html>
